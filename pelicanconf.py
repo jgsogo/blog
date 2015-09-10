@@ -37,8 +37,9 @@ SOCIAL = (('github', 'https://github.com/Lingwars'),
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 50
 
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['autopages']
+PLUGIN_PATHS = ['plugins', 'plugins/pelican-githubprojects']
+PLUGINS = ['autopages', 'pelican_githubprojects',]
+GITHUB_USER = 'Lingwars'
 
 THEME = 'theme/notmyidea'
 # Uncomment following line if you want document-relative URLs when developing
